@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './containers/App';
+import 'tachyons';
 import reportWebVitals from './reportWebVitals';
+// import CardList from './CardList';
+
+// ReactDOM.render(<h1>BLA BLA</h1>,document.getElementById('root'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <App/>
+    </div>
+    
   </React.StrictMode>
 );
 
